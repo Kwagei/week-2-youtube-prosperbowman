@@ -1,0 +1,368 @@
+body{
+    /* background-color: blue; */
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 920px;
+    /* background-color:rgb(64, 255, 0); */
+}
+section .top{
+    /* background-color: aqua; */
+    width: 1350px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+section .top .lift{
+    background-color: white;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.lift .bar{
+    /* background-color: rgb(232, 5, 5); */
+    width: 40px;
+    height: 44px;
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: 30px;
+}
+.bar a{
+    color: black;
+}
+.lift .logo{
+    /* background-image: url(./logo.jpg); */
+    background-position: contain;
+    /* background-color: lime; */
+    width: 150px;
+    height: 44px;
+    margin-top: 1px;
+}
+.top .main{
+    /* background-color: rgb(10, 158, 20); */
+    width: 600px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    margin-left: 200px;
+}
+
+.main input{
+    margin-top: 1px;
+    width: 400px;
+    height: 43px;
+}
+.main input::placeholder{
+    font-size: 15px;
+    padding: 10px;
+}
+
+.searchicon form{
+    border-radius: 1px;
+    background-color: rgb(214, 224, 224);
+    margin-top: 1px;
+    width: 50px;
+    height: 50px;
+}
+.searchicon i{
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    /* margin-top: 8px; */
+}
+.searchicon i:hover{
+    color: rgb(124, 124, 147);
+    cursor: pointer;
+}
+.voice form{
+    border-radius: 80px;
+    background-color: rgb(214, 224, 224);
+    margin-top: 6px;
+    margin-left: 10px;
+    width: 39px;
+}
+.voice i{
+    margin-left: 10px;
+    margin-top: 8px;
+}
+.voice i:hover{
+    color: rgb(124, 124, 147);
+    cursor: pointer;
+}
+.top .last{
+    /* background-color: rgb(243, 9, 137); */
+    width: 420px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.last .first{
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    margin-left: 250px;
+}
+.first .first1{
+    margin-top: 10px;
+}
+.first .first2{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.first .first3{
+    margin-left: 15px;
+}
+
+section aside{
+    margin-top: 55px;
+    /* background-color: rgb(247, 32, 4); */
+    width: 215px;
+    height: 856px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+aside button{
+    margin-top: 5px;
+    background-color: rgb(240, 248, 248);
+    display: flex;
+    flex-direction: row;
+    border: none;
+    border-radius: 10px;
+}
+aside button:hover{
+    color: blue;
+    border: none;
+}
+button a{
+    margin-left: 30px;
+    margin-top: 5px;
+    font-size: 30px;
+    color: black;
+    border: none;
+}
+button h1{
+    margin-left: 15px;
+}
+aside .subs{
+    margin-left: 35px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: arial;
+    color: black;
+}
+section .middle{
+    /* background-color: rgb(0, 255, 21); */
+    margin-left: 225px;
+    width: 150px;
+    height: 600px;
+}
+.middle .button{
+    width: 1150px;
+    height: 20px;
+    background-color: rgb(240, 221, 9);
+    margin-top: 3px;
+    display: flex;
+    flex-direction: row;
+}
+.middle .middle1{
+    width: 1130px;
+}
+.middle1 button{
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    /* background-color: chocolate; */
+}
+.middle button:hover{
+    cursor: pointer;
+    color: rgb(214, 224, 224);
+}
+
+.middle .movies{
+    margin-top: 5px;
+    width: 1150px;
+    height: 800px;
+    /* background-color: rgb(255, 0, 195); */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+.movies .one1{
+    /* background-color: rgb(9, 255, 0); */
+    width: 200px;
+    height: 50px;
+}
+.one1 iframe{
+    width: 250px;
+    height: 280px;
+}
+
+.movies .one2{
+    /* background-color: rgb(9, 255, 0); */
+    width: 200px;
+    height: 50px;
+}
+.one2 iframe{
+    width: 250px;
+    height: 280px;
+}
+.movies .one3{
+    /* background-color: rgb(9, 255, 0); */
+    width: 200px;
+    height: 50px;
+}
+.one3 iframe{
+    width: 250px;
+    height: 280px;
+}
+.movies .one4{
+    /* background-color: rgb(9, 255, 0); */
+    width: 200px;
+    height: 50px;
+}
+.one4 iframe{
+    width: 250px;
+    height: 280px;
+}
+.movies .one5{
+    /* background-color: rgb(9, 255, 0); */
+    width: 200px;
+    height: 50px;
+}
+.one5 iframe{
+    width: 250px;
+    height: 280px;
+}
+.movies .one6{
+    /* background-color: rgb(9, 255, 0); */
+    width: 200px;
+    height: 50px;
+}
+.one6 iframe{
+    width: 250px;
+    height: 280px;
+}
+.movies .one7{
+    /* background-color: rgb(9, 255, 0); */
+    width: 200px;
+    height: 50px;
+}
+.one7 iframe{
+    width: 250px;
+    height: 280px;
+}
+.movies .one8{
+    /* background-color: rgb(9, 255, 0); */
+    width: 200px;
+    height: 50px;
+}
+.one8 iframe{
+    width: 250px;
+    height: 280px;
+}
+.movies .one9{
+    /* background-color: rgb(9, 255, 0); */
+    width: 200px;
+    height: 50px;
+}
+.one9 iframe{
+    width: 250px;
+    height: 260px;
+}
+.movies .one10{
+    /* background-color: rgb(9, 255, 0); */
+    width: 200px;
+    height: 50px;
+}
+.one10 iframe{
+    width: 250px;
+    height: 260px;
+}
+.movies .one11{
+    /* background-color: rgb(9, 255, 0); */
+    width: 200px;
+    height: 50px;
+}
+.one11 iframe{
+    width: 250px;
+    height: 260px;
+}
+.movies .one12{
+    /* background-color: rgb(9, 255, 0); */
+    width: 200px;
+    height: 50px;
+}
+.one12 iframe{
+    width: 250px;
+    height: 260px;
+}
+
+
+@media(max-width: 640px) {
+    section .top{
+        width:350px;
+    }
+    .middle{
+        width: 300px;
+    }
+    .button{
+        width: 10px;
+    }
+    .movies{
+        width: 10px;
+    }
+    section aside{
+        width: 150px;
+    }
+    section .middle{
+        margin-left: 152px;
+    }
+    .middle .button{
+        width: 198px;
+    }
+
+    .middle .movies{
+       display: grid;
+       grid-template-columns: 192px;
+       /* height: 3000px; */
+    }
+
+}
+@media only screen and (max-device-width: 760px) and (orientation: landscape){
+    section .top{
+        width:755px;
+    }
+    .middle{
+        width: 300px;
+    }
+    .button{
+        width: 10px;
+    }
+    .movies{
+        width: 10px;
+    }
+    section aside{
+        width: 150px;
+    }
+    section .middle{
+        margin-left: 152px;
+    }
+    .middle .button{
+        width: 603px;
+    }
+
+    .middle .movies{
+       display: grid;
+       grid-template-columns: 192px 192px 192px;
+       /* height: 3000px; */
+    }
+}
