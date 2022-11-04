@@ -156,7 +156,7 @@ section .top .lift{
     position: fixed;
 }
 .up{
-    background-color: brown;
+    /* background-color: brown; */
     width: 95%;
     overflow-x: hidden;
     overflow: scroll;
