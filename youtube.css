@@ -8,7 +8,7 @@ section{
     display: flex;
     flex-direction: column;
     width: 300px;
-    height: 920px;
+
     /* background-color:rgb(64, 255, 0); */
 }
 section .top{
@@ -120,249 +120,94 @@ section .top .lift{
 .first .first3{
     margin-left: 15px;
 }
-
-section aside{
-    margin-top: 55px;
-    /* background-color: rgb(247, 32, 4); */
-    width: 215px;
-    height: 856px;
-    position: absolute;
+.majoir{
+    /* background-color: aqua; */
+    width: 50%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+}
+.side{
+    /* background-color: blue; */
+    width: 15%;
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+    overflow-y: auto;
+    overflow: scroll;
+    position: fixed;
+}
+.side button{
+    display: flex;
+    flex-direction: row;
+    font-size: 8px;
+}
+.subs{
+    margin-left: 30px;
+}
+.group{
+    /* background-color: rgb(21, 255, 0); */
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 205px;
+    position: fixed;
+}
+.up{
+    background-color: brown;
+    width: 95%;
+    overflow-x: hidden;
+    overflow: scroll;
+    padding: 0.3rem 0.2rem ;
+    overflow-x: scroll;
+    display: flex;
+    justify-content: space-between;
+}
+.up button{
+    width: 800%;
+    border-radius: 15px;
+    border: 1px solid lightgray; 
+    font-size: 20px;
+    margin-left: 5px;
+    justify-content: space-between;
+}
+.down{
+    /* background-color: rgb(248, 203, 2); */
+    width: 94%;
+    height: 100vh;
+    overflow-y: scroll;
     display: flex;
     flex-direction: column;
 }
-aside button{
-    margin-top: 5px;
-    background-color: rgb(240, 248, 248);
-    display: flex;
-    flex-direction: row;
-    border: none;
-    border-radius: 10px;
-}
-aside button:hover{
-    color: blue;
-    border: none;
-}
-button a{
-    margin-left: 30px;
-    margin-top: 5px;
-    font-size: 30px;
-    color: black;
-    border: none;
-}
-button h1{
-    margin-left: 15px;
-}
-aside .subs{
-    margin-left: 35px;
-    font-weight: bold;
-    font-size: 20px;
-    font-family: arial;
-    color: black;
-}
-section .middle{
-    /* background-color: rgb(0, 255, 21); */
-    margin-left: 225px;
-    width: 150px;
-    height: 600px;
-}
-.middle .button{
-    width: 1150px;
-    height: 20px;
-    background-color: rgb(240, 221, 9);
+.movies iframe{
     margin-top: 3px;
-    display: flex;
-    flex-direction: row;
+    width: 20vw;
+    margin-left: 6px;
 }
-.middle .middle1{
-    width: 1130px;
+.movies1 iframe{
+    margin-top: 3px;
+    width: 20vw;
+    margin-left: 6px;
 }
-.middle1 button{
-    border-radius: 10px;
-    border: none;
-    font-size: 15px;
-    /* background-color: chocolate; */
+.movies2 iframe{
+    margin-top: 3px;
+    width: 20vw;
+    margin-left: 6px;
 }
-.middle button:hover{
-    cursor: pointer;
-    color: rgb(214, 224, 224);
+.movies3 iframe{
+    margin-top: 3px;
+    width: 20vw;
+    margin-left: 6px;
 }
-
-.middle .movies{
-    margin-top: 5px;
-    width: 1150px;
-    height: 800px;
-    /* background-color: rgb(255, 0, 195); */
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 10px;
+.movies4 iframe{
+    margin-top: 3px;
+    width: 20vw;
+    margin-left: 6px;
 }
-.movies .one1{
-    /* background-color: rgb(9, 255, 0); */
-    width: 200px;
-    height: 50px;
-}
-.one1 iframe{
-    width: 250px;
-    height: 280px;
-}
-
-.movies .one2{
-    /* background-color: rgb(9, 255, 0); */
-    width: 200px;
-    height: 50px;
-}
-.one2 iframe{
-    width: 250px;
-    height: 280px;
-}
-.movies .one3{
-    /* background-color: rgb(9, 255, 0); */
-    width: 200px;
-    height: 50px;
-}
-.one3 iframe{
-    width: 250px;
-    height: 280px;
-}
-.movies .one4{
-    /* background-color: rgb(9, 255, 0); */
-    width: 200px;
-    height: 50px;
-}
-.one4 iframe{
-    width: 250px;
-    height: 280px;
-}
-.movies .one5{
-    /* background-color: rgb(9, 255, 0); */
-    width: 200px;
-    height: 50px;
-}
-.one5 iframe{
-    width: 250px;
-    height: 280px;
-}
-.movies .one6{
-    /* background-color: rgb(9, 255, 0); */
-    width: 200px;
-    height: 50px;
-}
-.one6 iframe{
-    width: 250px;
-    height: 280px;
-}
-.movies .one7{
-    /* background-color: rgb(9, 255, 0); */
-    width: 200px;
-    height: 50px;
-}
-.one7 iframe{
-    width: 250px;
-    height: 280px;
-}
-.movies .one8{
-    /* background-color: rgb(9, 255, 0); */
-    width: 200px;
-    height: 50px;
-}
-.one8 iframe{
-    width: 250px;
-    height: 280px;
-}
-.movies .one9{
-    /* background-color: rgb(9, 255, 0); */
-    width: 200px;
-    height: 50px;
-}
-.one9 iframe{
-    width: 250px;
-    height: 260px;
-}
-.movies .one10{
-    /* background-color: rgb(9, 255, 0); */
-    width: 200px;
-    height: 50px;
-}
-.one10 iframe{
-    width: 250px;
-    height: 260px;
-}
-.movies .one11{
-    /* background-color: rgb(9, 255, 0); */
-    width: 200px;
-    height: 50px;
-}
-.one11 iframe{
-    width: 250px;
-    height: 260px;
-}
-.movies .one12{
-    /* background-color: rgb(9, 255, 0); */
-    width: 200px;
-    height: 50px;
-}
-.one12 iframe{
-    width: 250px;
-    height: 260px;
-}
-
-
-@media(max-width: 640px) {
-    section .top{
-        width:350px;
-    }
-    .middle{
-        width: 300px;
-    }
-    .button{
-        width: 10px;
-    }
-    .movies{
-        width: 10px;
-    }
-    section aside{
-        width: 150px;
-    }
-    section .middle{
-        margin-left: 152px;
-    }
-    .middle .button{
-        width: 198px;
-    }
-
-    .middle .movies{
-       display: grid;
-       grid-template-columns: 192px;
-       /* height: 3000px; */
-    }
-
-}
-@media only screen and (max-device-width: 760px) and (orientation: landscape){
-    section .top{
-        width:755px;
-    }
-    .middle{
-        width: 300px;
-    }
-    .button{
-        width: 10px;
-    }
-    .movies{
-        width: 10px;
-    }
-    section aside{
-        width: 150px;
-    }
-    section .middle{
-        margin-left: 152px;
-    }
-    .middle .button{
-        width: 603px;
-    }
-
-    .middle .movies{
-       display: grid;
-       grid-template-columns: 192px 192px 192px;
-       /* height: 3000px; */
-    }
+.movies5 iframe{
+    margin-top: 3px;
+    width: 20vw;
+    margin-left: 6px;
 }
