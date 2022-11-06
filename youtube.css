@@ -173,6 +173,9 @@ section .top .lift{
     margin-left: 5px;
     justify-content: space-between;
 }
+.up button:hover{
+    color: azure;
+}
 .down{
     /* background-color: rgb(248, 203, 2); */
     width: 94%;
